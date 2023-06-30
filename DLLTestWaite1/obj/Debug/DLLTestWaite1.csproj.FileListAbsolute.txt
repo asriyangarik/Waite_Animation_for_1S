@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\bin\Debug\DLLTestWaite1.exe.config
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\bin\Debug\DLLTestWaite1.exe
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\bin\Debug\DLLTestWaite1.pdb
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.Form1.resources
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.Properties.Resources.resources
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.csproj.GenerateResource.cache
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.csproj.CopyComplete
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.exe
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\obj\Debug\DLLTestWaite1.pdb
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\bin\Debug\WaiteAnimation1S.dll
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\DLLTestWaite1\bin\Debug\WaiteAnimation1S.pdb

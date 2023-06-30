@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\bin\Debug\WaiteAnimation1S.dll
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\bin\Debug\WaiteAnimation1S.pdb
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\obj\Debug\WaiteAnimation1S.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\obj\Debug\WaiteAnimation1S.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\obj\Debug\WaiteAnimation1S.dll
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\obj\Debug\WaiteAnimation1S.pdb
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\obj\Debug\WaiteAnimation1S.MyWaiteForme.resources
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\obj\Debug\WaiteAnimation1S.csproj.GenerateResource.cache
+C:\Users\User\Desktop\INQNASPASARMAN DLL\WaiteAnimation1S\WaiteAnimation1S\obj\Debug\WaiteAnimation1S.Properties.Resources.resources
