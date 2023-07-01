@@ -302,8 +302,9 @@ namespace WaiteAnimation1S
         {
 
 
-            _myWaite = new MyWaiteForme();
+            _myWaite = new MyWaiteForme();          
             _myWaite.Show();
+            _myWaite.BringToFront();
         }
 
         public void StopeMyWaite()
