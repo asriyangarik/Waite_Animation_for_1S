@@ -304,6 +304,7 @@ namespace WaiteAnimation1S
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();//new MyWaiteForme();//
             _myWaite.PosWaite();
             _myWaite.Activate();
+            _myWaite.Visible = true;
             _myWaite.BringToFront();
 
         }
@@ -313,6 +314,7 @@ namespace WaiteAnimation1S
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();
             _myWaite.Waite();
             _myWaite.Activate();
+            _myWaite.Visible = true;
             _myWaite.BringToFront();
         }
 
@@ -320,13 +322,45 @@ namespace WaiteAnimation1S
         {
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();
             _myWaite.chek();
-            _myWaite.Activate(); 
+            _myWaite.Activate();
+            _myWaite.Visible = true;
+            _myWaite.BringToFront();
+        }
+
+        public void StartWaite1()
+        {
+            _myWaite = MyWaiteForme.GetMyWaiteInstanse();
+            _myWaite.Waite1();
+            _myWaite.Activate();
+            _myWaite.Visible = true;
+            _myWaite.BringToFront();
+        }
+
+        public void StartWaite2()
+        {
+            _myWaite = MyWaiteForme.GetMyWaiteInstanse();
+            _myWaite.Waite2();
+            _myWaite.Activate();
+            _myWaite.Visible = true;
+            _myWaite.BringToFront();
+        }
+
+        public void StartWaite3()
+        {
+            _myWaite = MyWaiteForme.GetMyWaiteInstanse();
+            _myWaite.Waite3();
+            _myWaite.Activate();
+            _myWaite.Visible = true;
             _myWaite.BringToFront();
         }
 
         public void StopeMyWaite()
         {
-            _myWaite.Hide();
+            if (_myWaite != null)
+            {
+                _myWaite.Hide();
+            }
+           
             
 
         }

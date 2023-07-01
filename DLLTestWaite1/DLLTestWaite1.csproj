@@ -44,7 +44,8 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="WaiteAnimation1S">
+    <Reference Include="WaiteAnimation1S, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\WaiteAnimation1S\bin\Debug\WaiteAnimation1S.dll</HintPath>
     </Reference>
   </ItemGroup>

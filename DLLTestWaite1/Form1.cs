@@ -1,14 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using WaiteAnimation1S;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace DLLTestWaite1
 {
@@ -23,31 +15,37 @@ namespace DLLTestWaite1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
             MyObject.StartMyWaitePOS();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MyObject.StopeMyWaite();
+            MyObject.StartWaite();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-     
-            MyObject.StartWaite();
+            MyObject.StartChake();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            MyObject.StartChake();
+            MyObject.StopeMyWaite();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-           
-           
-           
+            MyObject.StartWaite1();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MyObject.StartWaite2();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            MyObject.StartWaite3();
         }
     }
 }

@@ -73,6 +73,16 @@ namespace WaiteAnimation1S.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap loading_gif {
+            get {
+                object obj = ResourceManager.GetObject("loading-gif", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NFCPAY {
             get {
                 object obj = ResourceManager.GetObject("NFCPAY", resourceCulture);
@@ -83,9 +93,29 @@ namespace WaiteAnimation1S.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PLZWaite {
+            get {
+                object obj = ResourceManager.GetObject("PLZWaite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap waite {
             get {
                 object obj = ResourceManager.GetObject("waite", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap waite1 {
+            get {
+                object obj = ResourceManager.GetObject("waite1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
