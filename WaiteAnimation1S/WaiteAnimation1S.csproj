@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="Resources\NFCPAY.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waite.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

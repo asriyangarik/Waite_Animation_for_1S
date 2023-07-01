@@ -13,19 +13,47 @@ namespace WaiteAnimation1S
     public partial class MyWaiteForme : Form
     {
         Image _myPictureGif = Properties.Resources.NFCPAY;
-        
+        Image _myPictureWaiteGif = Properties.Resources.waite;
+        Image _myPictureChakeGif = Properties.Resources.check;
+
+        static MyWaiteForme _myWaiteInstanse;
+
         public MyWaiteForme()
         {
            
             InitializeComponent();
-            // EventHandler zz = (sender, e) => { };
+
+        }
+
+        public void PosWaite()
+        {
             pictureBox1.Image = _myPictureGif;
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            ImageAnimator.Animate(_myPictureGif, null);
+        }
+        public void Waite()
+        {
+            pictureBox1.Image = _myPictureWaiteGif;
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             ImageAnimator.Animate(_myPictureGif, null);
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        public void chek()
         {
-
+            pictureBox1.Image = _myPictureChakeGif;
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            ImageAnimator.Animate(_myPictureGif, null);
         }
+
+        public static MyWaiteForme GetMyWaiteInstanse()
+        {
+            if (_myWaiteInstanse == null)
+            {
+                _myWaiteInstanse = new MyWaiteForme();
+
+            }
+            return _myWaiteInstanse;
+        }
+
     }
 }

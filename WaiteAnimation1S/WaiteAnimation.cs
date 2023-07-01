@@ -16,7 +16,7 @@ namespace WaiteAnimation1S
         string strMessageBoxIcon;
         string strMessageBoxButtons;
 
-        MyWaiteForme _myWaite;
+        MyWaiteForme  _myWaite;
 
         #region "IInitDone implementation"
 
@@ -298,19 +298,37 @@ namespace WaiteAnimation1S
 
         #region MyMetods MyCode
 
-        public void StartMyWaite()
+        public void StartMyWaitePOS()
         {
 
+            _myWaite = MyWaiteForme.GetMyWaiteInstanse();//new MyWaiteForme();//
+            _myWaite.PosWaite();
+            _myWaite.Activate();
+            _myWaite.BringToFront();
 
-            _myWaite = new MyWaiteForme();          
-            _myWaite.Show();
+        }
+
+        public void StartWaite()
+        {
+            _myWaite = MyWaiteForme.GetMyWaiteInstanse();
+            _myWaite.Waite();
+            _myWaite.Activate();
+            _myWaite.BringToFront();
+        }
+
+        public void StartChake()
+        {
+            _myWaite = MyWaiteForme.GetMyWaiteInstanse();
+            _myWaite.chek();
+            _myWaite.Activate(); 
             _myWaite.BringToFront();
         }
 
         public void StopeMyWaite()
         {
+            _myWaite.Hide();
+            
 
-            _myWaite.Dispose();
         }
       
 
