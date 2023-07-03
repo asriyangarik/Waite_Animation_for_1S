@@ -298,12 +298,12 @@ namespace WaiteAnimation1S
 
         #region MyMetods MyCode
 
-        public void StartMyWaitePOS()
+        public async void StartMyWaitePOS()
         {
 
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();//new MyWaiteForme();//
             _myWaite.PosWaite();
-            _myWaite.Activate();
+            _myWaite.Show();
             _myWaite.Visible = true;
             _myWaite.BringToFront();
 
@@ -313,7 +313,7 @@ namespace WaiteAnimation1S
         {
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();
             _myWaite.Waite();
-            _myWaite.Activate();
+            _myWaite.Show();
             _myWaite.Visible = true;
             _myWaite.BringToFront();
         }
@@ -322,7 +322,7 @@ namespace WaiteAnimation1S
         {
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();
             _myWaite.chek();
-            _myWaite.Activate();
+            _myWaite.Show();
             _myWaite.Visible = true;
             _myWaite.BringToFront();
         }
@@ -331,7 +331,7 @@ namespace WaiteAnimation1S
         {
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();
             _myWaite.Waite1();
-            _myWaite.Activate();
+            _myWaite.Show();
             _myWaite.Visible = true;
             _myWaite.BringToFront();
         }
@@ -340,7 +340,7 @@ namespace WaiteAnimation1S
         {
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();
             _myWaite.Waite2();
-            _myWaite.Activate();
+            _myWaite.Show();
             _myWaite.Visible = true;
             _myWaite.BringToFront();
         }
@@ -349,7 +349,7 @@ namespace WaiteAnimation1S
         {
             _myWaite = MyWaiteForme.GetMyWaiteInstanse();
             _myWaite.Waite3();
-            _myWaite.Activate();
+            _myWaite.Show();
             _myWaite.Visible = true;
             _myWaite.BringToFront();
         }

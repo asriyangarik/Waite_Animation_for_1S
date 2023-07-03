@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using System.Windows.Forms;
 
 namespace WaiteAnimation1S
@@ -27,7 +20,7 @@ namespace WaiteAnimation1S
           
         }
 
-        public void PosWaite()
+        public  void PosWaite()
         {
             this.Size = new Size(473, 370);
             pictureBox1.Size = new Size(453, 352);
